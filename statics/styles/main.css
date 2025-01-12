@@ -14,9 +14,11 @@
 }
 
 .input_form{
+    width: 100%;
+    max-width: 600px;
+    height: auto;
     border: 1px solid blue;
-    width: 600px;
-    height: 500px;
+     
     margin: auto;
     margin-top: 20px;
     padding: 10px;
@@ -37,4 +39,39 @@
     text-align: center;
     margin: auto;
     color: rgb(5,5, 110)
+}
+/* Reset global styles while keeping Bootstrap intact */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* Custom styles for input_form */
+.input_form {
+    border: 1px solid blue;
+    max-width: 600px;
+    padding: 20px;
+    margin: auto;
+    margin-top: 20px;
+    border-radius: 10px;
+    font-size: 16px;
+    text-align: justify;
+    background-color: #f8f9fa; /* Light gray background */
+}
+
+/* Align text properly and add styling */
+.text-center {
+    color: rgb(5, 5, 110);
+}
+
+/* Remove conflicting margin reset */
+.row {
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.err_msg{
+    text-align: center;
+    margin:auto;
+    color:maroon;
 }

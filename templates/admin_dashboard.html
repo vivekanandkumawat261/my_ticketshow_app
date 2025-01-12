@@ -9,66 +9,67 @@
 </head>
 <body>
     <div class="my_container">
-        <div class="center"> <h1>My Cine World</h1></div>
-         
-             
-            <div class="input_form">
-                <nav class="navbar navbar-expand-lg navbar-light bg-light">
-                    <div class="container-fluid">
-                      
-                      <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                          <li class="nav-item">
+        <!-- Header -->
+        <div class="text-center my-4">
+            <h1>My Cine World</h1>
+        </div>
+
+        <!-- Navigation Bar -->
+        <nav class="navbar navbar-expand-lg navbar-light bg-light mb-4">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">Dashboard</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav me-auto">
+                        <li class="nav-item">
                             <a class="nav-link active" aria-current="page" href="#">Summary</a>
-                          </li>
-                          <li class="nav-item">
+                        </li>
+                        <li class="nav-item">
                             <a class="nav-link" href="#">Logout</a>
-                          </li>
-                        </ul>
-                          <span class="navbar-text">
-                            Welcome to "Admin" 
-                          </span>
-                         
-                       </div>
-                    </div>
-                </nav>
-                <div class="container">
-                    <div class="row">
-                        <div class="col-md-6">
-                            <!-- Venue1 card here -->
-                            <div class="card" style="width: 100%;">
-                                <div class="card-body">
-                                    <h5 class="card-title">Venue#1</h5>
-                                    <h6 class="card-subtitle mb-2 text-muted">Cineworld</h6>
-                                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                                    <button type="button" class="btn btn-primary">+Add Show</button>
-                                </div>
-                            </div>
-                            <!-- End of Venue1 -->
-                        </div>
-                        <div class="col-md-6">
-                            <!-- Venue2 card here -->
-                            <div class="card" style="width: 100%;">
-                                <div class="card-body">
-                                    <h5 class="card-title">Venue#2</h5>
-                                    <h6 class="card-subtitle mb-2 text-muted">Inox Movies</h6>
-                                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                                    <button type="button" class="btn btn-primary">+Add Show</button>
-                                </div>
-                            </div>
-                            <!-- End of Venue2 -->
+                        </li>
+                    </ul>
+                    <span class="navbar-text">
+                        Welcome to "Admin"
+                    </span>
+                </div>
+            </div>
+        </nav>
+
+        <!-- Venue Cards -->
+        <div class="container">
+            <div class="row g-4">
+                <div class="col-md-6">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">Venue #1</h5>
+                            <h6 class="card-subtitle mb-2 text-muted">Cineworld</h6>
+                            <p class="card-text">Manage Cineworld shows and events from this dashboard.</p>
+                            <button type="button" class="btn btn-primary">+ Add Show</button>
                         </div>
                     </div>
                 </div>
-                
-                       
-                       
-                    
+                <div class="col-md-6">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">Venue #2</h5>
+                            <h6 class="card-subtitle mb-2 text-muted">Inox Movies</h6>
+                            <p class="card-text">Manage Inox Movies shows and events from this dashboard.</p>
+                            <button type="button" class="btn btn-primary">+ Add Show</button>
+                        </div>
+                    </div>
+                </div>
             </div>
-          <div class="center"> <button type="button" class="btn btn-primary">+Add Venue</button></div>
         </div>
-         
 
+        <!-- Add Venue Button -->
+        <div class="text-center my-4">
+            <button type="button" class="btn btn-primary">+ Add Venue</button>
+        </div>
     </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFY5hnLV9KRmgGeSGcazkNfXsE3l5kEtuKhiCpUjEjB1zCwpSrGPG61vhq" crossorigin="anonymous"></script>
 </body>
 </html>
+ 
